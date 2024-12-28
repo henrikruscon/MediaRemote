@@ -36,6 +36,7 @@ extern NSString *kMRMediaRemoteNowPlayingInfoContentItemIdentifier;
 extern NSString *kMRMediaRemoteNowPlayingInfoIsMusicApp;
 extern NSString *kMRMediaRemoteNowPlayingInfoAlbumiTunesStoreAdamIdentifier;
 extern NSString *kMRMediaRemoteNowPlayingInfoUniqueIdentifier;
+extern NSString *kMRMediaRemoteNowPlayingInfoProhibitsSkip;
 
 extern NSString *kMRActiveNowPlayingPlayerPathUserInfoKey;
 extern NSString *kMRMediaRemoteNowPlayingApplicationIsPlayingUserInfoKey;
