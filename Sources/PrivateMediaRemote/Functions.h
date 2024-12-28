@@ -31,6 +31,7 @@ void MRMediaRemoteGetNowPlayingApplicationIsPlaying(dispatch_queue_t queue, MRMe
 NSString *MRNowPlayingClientGetBundleIdentifier(id clientObj) __attribute__((warn_unused_result));
 NSString *MRNowPlayingClientGetParentAppBundleIdentifier(id clientObj) __attribute__((warn_unused_result));
 void MRMediaRemoteSetElapsedTime(double time);
+void MRMediaRemoteCopySupportedCommands(dispatch_queue_t queue, void(^block)(NSArray *));
 Boolean MRMediaRemoteSendCommand(MRMediaRemoteCommand command, NSDictionary *userInfo);
 
 #endif /* PrivateMediaRemote_Functions_h */
