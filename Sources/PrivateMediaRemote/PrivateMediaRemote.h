@@ -7,6 +7,7 @@
 #import <PrivateMediaRemote/_MRNowPlayingClientProtobuf.h>
 #import <PrivateMediaRemote/MRClient.h>
 #import <PrivateMediaRemote/MRArtwork.h>
+#import <PrivateMediaRemote/MRCommandInfo.h>
 #import <PrivateMediaRemote/MRContentItem.h>
 #import <PrivateMediaRemote/MRContentItemMetadata.h>
 #import <PrivateMediaRemote/MROrigin.h>
