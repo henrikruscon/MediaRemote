@@ -28,6 +28,7 @@ API_AVAILABLE(macos(11.0))
 @property (nonatomic) double elapsedTime;
 @property (nonatomic) double elapsedTimeTimestamp;
 @property (nonatomic, readonly) double calculatedPlaybackPosition;
+@property (nonatomic) float playbackRate;
 
 @end
 
