@@ -39,6 +39,7 @@ extern NSString *kMRMediaRemoteNowPlayingInfoUniqueIdentifier;
 extern NSString *kMRMediaRemoteNowPlayingInfoProhibitsSkip;
 extern NSString *kMRMediaRemoteNowPlayingInfoSupportsFastForward15Seconds;
 extern NSString *kMRMediaRemoteNowPlayingInfoSupportsRewind15Seconds;
+extern NSString *kMRMediaRemoteNowPlayingInfoIsAdvertisement;
 
 extern NSString *kMRActiveNowPlayingPlayerPathUserInfoKey;
 extern NSString *kMRMediaRemoteNowPlayingApplicationIsPlayingUserInfoKey;
