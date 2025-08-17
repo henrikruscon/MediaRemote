@@ -3,7 +3,7 @@
 @implementation PrivateMediaRemote
 
 + (NSURL *)bundleURL {
-	return [NSBundle bundleForClass:NSClassFromString(@"MRNowPlayingClient")].bundleURL;
+	return [NSURL fileURLWithPath:@"/System/Library/PrivateFrameworks/MediaRemote.framework"];
 }
 
 + (NSBundle *)bundle {
