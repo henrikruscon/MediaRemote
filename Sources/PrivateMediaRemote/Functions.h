@@ -30,6 +30,7 @@ typedef void (^MRMediaRemoteGetNowPlayingApplicationIsPlayingCallback)(BOOL isPl
 void MRMediaRemoteGetNowPlayingApplicationIsPlaying(dispatch_queue_t queue, MRMediaRemoteGetNowPlayingApplicationIsPlayingCallback block);
 NSString *MRNowPlayingClientGetBundleIdentifier(id clientObj) __attribute__((warn_unused_result));
 NSString *MRNowPlayingClientGetParentAppBundleIdentifier(id clientObj) __attribute__((warn_unused_result));
+void MRMediaRemoteSetPlaybackSpeed(int speed);
 void MRMediaRemoteSetElapsedTime(double time);
 void MRMediaRemoteCopySupportedCommands(dispatch_queue_t queue, void(^block)(NSArray *));
 Boolean MRMediaRemoteCommandInfoGetBooleanValueForKey(id commandInfo, CFStringRef key);
