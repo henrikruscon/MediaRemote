@@ -14,6 +14,7 @@ extern NSString *kMRMediaRemoteNowPlayingInfoArtist;
 extern NSString *kMRMediaRemoteNowPlayingInfoTitle;
 extern NSString *kMRMediaRemoteNowPlayingInfoAlbum;
 extern NSString *kMRMediaRemoteNowPlayingInfoArtworkData;
+extern NSString *kMRMediaRemoteNowPlayingInfoDefaultPlaybackRate;
 extern NSString *kMRMediaRemoteNowPlayingInfoPlaybackRate;
 extern NSString *kMRMediaRemoteNowPlayingInfoDuration;
 extern NSString *kMRMediaRemoteNowPlayingInfoElapsedTime;
